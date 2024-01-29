@@ -11,8 +11,7 @@ public class MinMaxInArray {
 
     }
     int[] minAndMaxValue(int[] nums){
-        int[] minMaxValue = {nums[0], nums[0]};
-        int size = nums.length;
+        int[] minMaxValue = new int[]{nums[0], nums[0]};
         for (int num : nums) {
             if (minMaxValue[0] > num) {
                 minMaxValue[0] = num;
