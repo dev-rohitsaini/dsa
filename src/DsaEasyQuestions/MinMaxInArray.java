@@ -2,10 +2,10 @@ package DsaEasyQuestions;
 import ArrayDemoData.DummyArrays;
 
 public class MinMaxInArray {
-    public static void main(String args[]){
+    public static void main(String[] args){
         DummyArrays obj = new DummyArrays();
         MinMaxInArray obj2 = new MinMaxInArray();
-        int arr[] = obj.staticArray();
+        int[] arr = obj.staticArray();
         int[] res = obj2.minAndMaxValue(arr);
         System.out.print("The maximum value is "+res[1]+" and minimum value in array is "+res[0]);
 
