@@ -4,11 +4,13 @@ public class DummyArrays {
     public static void main(String[] args) {
 
     }
-    public int[] getDummyArrayFromUser(int size){
+    public int[] getDummyArrayFromUser(){
        Scanner sc = new Scanner(System.in);
-        int[] arr = new int[size];
+        System.out.println("Please Enter the Size of Array");
+        int sizeOfArray = sc.nextInt();
+        int[] arr = new int[sizeOfArray];
         System.out.println("Please enter the values in Array");
-        for(int i = 0; i < size; i++){
+        for(int i = 0; i < sizeOfArray; i++){
             arr[i] = sc.nextInt();
         }
         return arr;

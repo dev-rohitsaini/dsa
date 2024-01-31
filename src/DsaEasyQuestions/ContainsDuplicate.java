@@ -7,7 +7,7 @@ public class ContainsDuplicate {
     public static void main(String[] args){
         DummyArrays obj = new DummyArrays();
         ContainsDuplicate mainObj = new ContainsDuplicate();
-        int[] arr = obj.getDummyArrayFromUser(10);
+        int[] arr = obj.getDummyArrayFromUser();
         boolean result = mainObj.hasDuplicate(arr);
         System.out.print(result);
 
