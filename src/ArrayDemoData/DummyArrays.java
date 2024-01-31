@@ -4,9 +4,10 @@ public class DummyArrays {
     public static void main(String[] args) {
 
     }
-    int[] getDummyArrayFromUser(int size){
+    public int[] getDummyArrayFromUser(int size){
        Scanner sc = new Scanner(System.in);
         int[] arr = new int[size];
+        System.out.println("Please enter the values in Array");
         for(int i = 0; i < size; i++){
             arr[i] = sc.nextInt();
         }
