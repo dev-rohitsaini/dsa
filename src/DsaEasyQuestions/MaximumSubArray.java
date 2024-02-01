@@ -8,6 +8,7 @@ public class MaximumSubArray {
         int[] arr = obj.getDummyArrayFromUser();
         int target = 6;
         System.out.println(mainObj.getMaxSum(arr));
+        System.out.println(mainObj.hasMaximumSubArray(arr,target));
     }
     int getMaxSum(int[] numbs){
         int currMax = numbs[0];
