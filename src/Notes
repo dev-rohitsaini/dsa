@@ -1,0 +1,20 @@
+
+-----------------------------------------Kadane's Algorithm----------------------------------------------
+
+Kadane's Algorithm Helps to find out the maximum sum sub-array in integer array.
+Here two variables are required to keep track of sum
+
+        1. currMax  2. globalMax
+
+        algo:->
+               {
+                    int[] arr = new int[]{1,2,3,4,5,6,76,3,3,45};
+                    int currMax = arr[0];
+                    int globalMax = arr[0];
+                    int size = arr.length;
+                    for(int i=1;i<size;i++){
+                        currMax = Math.max(arr[i], arr[i] + currMax);
+                        globalMax = Math.max(currMax, globalMax);
+                    }
+                    return globalMax;
+               }
