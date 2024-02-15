@@ -1,0 +1,5 @@
+
+----------------------------------Kth largest Element -----------------------
+Mehtods ->
+            1. Sort and return Nlog(N)
+            2. QuickSelect -> Sort one side of pivot and check in another side of array, O(n)
