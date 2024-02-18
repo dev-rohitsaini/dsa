@@ -1,7 +1,6 @@
-package DsaEasyQuestions;
+package Searching;
 
 import ArrayDemoData.DummyArrays;
-import Searching.SearchInSortedArray;
 
 import java.util.Scanner;
 
