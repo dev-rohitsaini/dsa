@@ -1,0 +1,97 @@
+Table of Contents
+1) What is Java?
+Answer:- Java is a oops based compiled langauge. Which is platform independent. Java is used to make and handle large scale platform.
+Java support  large range of data structures.
+
+2) What is the difference between JDK, JRE, and JVM?
+
+Java provide jdk, jre and jvm to run the java progrma on the system.
+
+    jdk - Java development kit
+        jdk provide compiler, jvm, jre, java heap
+    Jre - Java run time envirnment
+        jre provide jvm, java class and libraires
+    jvm - Java virtual machine
+        jvm provides a machine where we can run on java
+        main purpose of jvm is convert java code into bytecode and run it on any of the machine
+        it provides run time feature like garbage collection, exception handling, ans security enforcement
+
+3) Explain access modifiers and their use in Java.
+
+    Access modifiers in java define the access of variables and methods
+    there are three access modifires in java
+    Public - methods class variables are available in a class as well as outside of class
+    Private - methods class and variables only accessible into specified scope , not able to use outside of current scope
+    Friend - methods or classes can have the properties of a private class using friend method
+    protected - protected classes methods can be aceessible within same package and sub class(in another package as well)
+
+4) What is the difference between this() and super() keywords in java?
+
+    this() -> the methods used to invoke the cunstructor of same class
+    super() -> the methods always use to invoke custructoe of parent class
+
+5) What is a constructor in Java?
+
+    Initialization: Constructors are used to initialize the state of an object by setting its initial values, establishing connections, or performing other setup tasks required for the object to be in a valid state.
+
+    Automatic Invocation: Constructors are automatically invoked when an object is created using the new keyword. They ensure that the object is properly initialized before it is used in the program.
+
+    No Return Type: Constructors do not have a return type, not even void. They have the same name as the class and cannot be called explicitly like regular methods.
+
+    Overloading: Like other methods, constructors can be overloaded, allowing for multiple constructors with different parameter lists to initialize objects in different ways.
+
+    Default Constructor: If no constructor is explicitly defined in a class, Java provides a default constructor with no parameters. However, if you define a constructor with parameters, the default constructor is not provided automatically.
+
+    Initialization Order: Constructors are executed in the order they appear in the class, and if a subclass constructor is invoked, it automatically calls the constructor of the superclass (either implicitly or explicitly using super()).
+
+6) What is constructor chaining?
+        Custructor chaining - when a class multiple cunstructors then each constructor can be called from another\
+            and another constructor can be called from next constructor using this() method the phenomanon iscalled contructor chanong
+
+7) What is the difference between primitive and non-primitive data types?
+8) What are the different ways to create objects in Java?
+9) Why String is immutable in Java?
+10) Explain what is encapsulation?
+11) What is an abstraction in Oops?
+12) Why do we need an interface?
+13) What is the difference between abstract class and interface?
+14) Why does an abstract class need a constructor?
+15) Can we create the object of an abstract class?
+16) Where objects are stored in Java?
+17) What is Exception handling in Java?
+18) List five keywords related to Exception handling.
+19) What is the benefit of multi-catch block in Java?
+20) Can we use a catch statement for checked exceptions?
+21) Can we rethrow the same exception from the catch handler?
+22) What is exception propagation?
+23) What is the difference between a checked exception and an unchecked exception?
+24) What is the difference between wait() and sleep() in java?
+25) Java is pass-by-value or pass-by-reference?
+26) Can we overload or override the static method?
+27) Explain the difference between String, StringBuilder, and StringBuffer.
+28) Explain the ‘equals’ and ‘hashCode’ methods.
+29) Can we serialize static variables in Java?
+30) Why do we need Enum in Java?
+31) What is the difference between HashSet and TreeSet?
+32) What is the difference between HashMap and HashSet?
+33) Differentiate between List and Set in Java.
+34) When TreeSet is preferred over HashSet?
+35) What is the difference between a hashmap and a hashtable?
+36) What is the difference between local variables and class variables?
+37) What is the difference between a for-each loop and a normal for loop?
+38) What will happen if we try to insert a duplicate value in the Set?
+39) How can you prevent a method from being overridden?
+40) How to make a class immutable in Java?
+41) What is the use of the Properties class in Java? What is the advantage of the Properties file?
+42) What is the difference between the isBlank() and isEmpty() method of the String class?
+43) How many ways runtime polymorphism can be achieved?
+44) Explain whether int a=null is right or wrong and Why?
+45) List some common classes in Java.
+46) What is the difference between break and continue keywords?
+47) What is OutOfMemoryError?
+48) What is the final access modifier in Java? Explain in detail.
+49) What is a ternary operator in Java?
+50) What is the difference between == and .equals() method in Java?
+51) Can a constructor be private in a Java class?
+52) Have you worked with Predicate in Java 8?
+53) Have you worked with Streams API?
