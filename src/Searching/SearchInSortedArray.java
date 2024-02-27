@@ -13,14 +13,14 @@ public class SearchInSortedArray {
         System.out.println(mainObj.isElementPresent(arr,target));
     }
     boolean isElementPresent(int[] arr, int target){
-        int si = 0, ei = arr.length - 1;
-
-        while(si <= ei){
-            int mid = (ei +  si)/2;
-            if(arr[mid] == target)return true;
-            else if(arr[mid] > target)ei = mid - 1;
-            else si = mid + 1;
-        }
+       int si = 0;
+       int ei = arr.length - 1;
+       while(si < ei){
+           int mid = (si + ei)/2;
+           if(arr[mid] == target)return true;
+           else if(arr[mid] > target) si = mid + 1;
+           else ei = mid -1;
+       }
         return false;
     }
 }
