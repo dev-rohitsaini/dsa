@@ -29,4 +29,9 @@ public class DummyArrays {
             System.out.print(arr[i]+" ");
         }
     }
+    public String getStringFromUser(){
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        return str;
+    }
 }
