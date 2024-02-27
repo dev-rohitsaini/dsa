@@ -95,3 +95,7 @@ Java provide jdk, jre and jvm to run the java progrma on the system.
 51) Can a constructor be private in a Java class?
 52) Have you worked with Predicate in Java 8?
 53) Have you worked with Streams API?
+54) What is serialisation and de-serialisation?
+54 Answer:-  Serialisation is a process to converting an object into a basic data format which is suitable to
+                transfer the data through api e.g. - JSON, XML
+             De-serialisation :- this is reverse process of serialisation where a data format is converted to an object

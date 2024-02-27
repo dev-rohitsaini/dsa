@@ -7,7 +7,7 @@ public class ReveraseSentence {
         System.out.println("Please enter the value of string");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        String res = resverTheWordsInSentences(str);
+        String res = reverseString(str);
         System.out.println(res);
 
     }
@@ -33,5 +33,15 @@ public class ReveraseSentence {
            res.append((i == arraySize - 1) ? temp.toString() : temp + " ");
         }
         return res.toString();
+    }
+
+    public static String reverseString(String str){
+        str = str.trim();
+        StringBuffer buffer = new StringBuffer();
+        int len = str.length();
+        for(int i = len-1;i>=0;i--){
+            buffer.append(str.charAt(i));
+        }
+        return buffer.toString();
     }
 }
